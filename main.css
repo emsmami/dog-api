@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    /*background-image: url(“XXX”);*/
+    font-size: 24px;
+    color: black;
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .hidden{
+      display: none;
+  }
+
+  .dog {
+      width: 150px;
+      height: 150px;
+      margin: 5px;
+
+
+  }
+
+  
+  

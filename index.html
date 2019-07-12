@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Random Dogs Api</title>
+  <meta charset="utf-8">
+  <meta name="description" content=“random dogs”>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+  <header role="banner">
+   
+  </header>
+
+  <main class="content" role="main">
+
+    <form id="single-form">
+      <h1> How many dogs do you want to see?</h1>
+      <section class="chooser">
+        <input type="number" id="display-num" label="How many dogs do you want?" min="1" max="50" value="3">
+
+
+        <button type="submit" id=“get-dogs”>Get My Dog Images</button>
+      </section>
+
+    </form>
+    <section class="results hidden">
+      <h3>Look at the cuteness</h3>
+     
+    </section>  
+  </main>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>
